@@ -8,14 +8,15 @@
   background-attachment: fixed;
   padding-top: 170px;
   padding-bottom: 90px;
+  height: 778.8px;
 }
 .hero_section .price_badge {
   background: url("../assets/hero/price-badge-yellow.png") no-repeat center
     center;
   background-size: cover;
   position: absolute;
-  top: -20px;
-  right: 5px;
+  top: -70px;
+  right: 620px;
   width: 180px;
   height: 176px;
   text-align: center;
@@ -50,9 +51,6 @@
   margin-bottom: 20px;
   letter-spacing: 3px;
 }
-.hero_section .hero_text p {
-  padding: 0 5%;
-}
 
 
 
@@ -60,18 +58,20 @@
 /* Home About 2.0 */
 .about_section {
   padding-top: 80px;
-  padding-bottom: 300px;
+  padding-bottom: 370px;
   background: url("../assets/about/about-1.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
 }
 .about_section h2 {
   font-size: 3.5rem;
+  color: black;
 }
 .about_section p {
-  color: var(--grey);
+  color: black;
   padding: 20px 30px;
   font-size: 19px;
+  font-weight: 900;
 }
 .about_wrapper {
   background: var(--yellow);
@@ -97,7 +97,7 @@
 
 /* Home Menu 3.0 */
 .menu_section {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 .menu_section .card-img-top {

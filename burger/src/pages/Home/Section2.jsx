@@ -32,7 +32,7 @@ function Section2() {
         <Container>
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
-              <h2>The burger tastes better when you eat it with your family</h2>
+              <h2>The Pizza tastes better when you eat it with your family</h2>
               <p>
                 Porta semper lacus cursus, feugiat primis ultrice a ligula risus
                 auctor an tempus feugiat dolor lacinia cubilia curae integer
