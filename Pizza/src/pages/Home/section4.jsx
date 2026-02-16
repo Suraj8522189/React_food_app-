@@ -9,7 +9,7 @@ function Section4() {
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="text-center mb-5 mb-lg-0">
-              <img src={PromotionImage} className="img-fluid" alt="Promotion" />
+              <img src={PromotionImage} width="600px" height="600px" className="img-fluid" alt="Promotion"/>
             </Col>
             <Col lg={6} className="px-5">
               <h2>Nothing brings people together like a good Pizza</h2>
