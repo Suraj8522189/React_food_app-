@@ -1,4 +1,5 @@
 # Logs
+
 logs
 *.log
 npm-debug.log*
@@ -7,12 +8,26 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Node modules (Frontend + Backend)
+
+node_modules/
+Pizza/node_modules/
+Server/node_modules/
+
+# Environment files
+
+.env
+Pizza/.env
+Server/.env
+
+# Build folders
+
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
+
 .vscode/*
 !.vscode/extensions.json
 .idea
